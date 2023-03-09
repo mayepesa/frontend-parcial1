@@ -3,9 +3,10 @@ import React from "react";
 const Card = ({ career, name, genre }) => {
   return (
     <div className="card">
-      <h3>Nombre: {name}</h3>
-      <h3>Carrera: {career}</h3>
-      <h3>Género musical: {genre}</h3>
+      <h4>Se guardaron lo siguientes datos sobre ti:</h4>
+      <p>Nombre: {name}</p>
+      <p>Carrera: {career}</p>
+      <p>Género musical: {genre}</p>
     </div>
   );
 };

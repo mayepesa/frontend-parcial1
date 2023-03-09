@@ -5,10 +5,6 @@
   text-align: center;
 }
 
-.card {
-  padding: 2em;
-}
-
 .form {
   display: flex;
   flex-direction: column;
@@ -42,13 +38,22 @@
   color: rgb(202, 77, 77);
 }
 
-.card{
+.card {
   background-color: lightslategrey;
   border-radius: 10px;
   margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1em 2em;
+  color: rgb(255, 255, 255);
 }
 
-.profile-img{
+.card p{
+  margin: 10px;
+}
+
+.profile-img {
   height: 100px;
   width: 200px;
   border-radius: 20px;

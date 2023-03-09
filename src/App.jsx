@@ -29,6 +29,8 @@ function App() {
 
   const handleInput = (e) => {
     const { name, value } = e.target;
+    setShow(false);
+    setError(false);
     setUserData({ ...userData, [name]: value.trim() });
   };
 
